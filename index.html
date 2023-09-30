@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./media/feasting.jpeg" alt="A picture of a meal">
-    <a href="./recipes/pizza.html">Pizza recipe</a>
-    <a href="./recipes/pancakes.html">Pancakes recipe</a>
-    <a href="./recipes/pasta.html">Pasta recipe</a>
+    <h1 class="header">Odin Recipes</h1>
+    <div class="recipe-container">
+        <div>
+            <img class="recipe-img" src="./media/pizza.webp" alt="picture of pizza">
+            <p>Click the button below to see a pizza menu.</menu></p>
+            <a href="./recipes/pizza.html">
+                <button type="button" class="btn">See more.</button>
+            </a>
+        </div>
+        <div>
+            <img class="recipe-img" src="./media/pancakes.webp" alt="picture of pancakes">
+            <p>Click the button below to see a pancakes menu.</p>
+            <a href="./recipes/pancakes.html">
+                <button type="button" class="btn">See more.</button>
+            </a>
+        </div>
+        <div>
+            <img class="recipe-img" src="./media/pasta.webp" alt="picture of pasta">
+            <p>Click the button below to see a pasta menu.</p>
+            <a href="./recipes/pasta.html">
+                <button type="button" class="btn">See more.</button>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
