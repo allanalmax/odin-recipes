@@ -1,0 +1,15 @@
+.pancakes-header {
+    text-align: center;
+}
+
+.pancakes-container {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pancakes-img {
+    height: 300px;
+    width: 550px;
+}

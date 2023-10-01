@@ -1,0 +1,15 @@
+.pasta-header {
+    text-align: center;
+}
+
+.pasta-container {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pasta-img {
+    height: 400px;
+    width: 550px;
+}

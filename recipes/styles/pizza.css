@@ -1,0 +1,15 @@
+.pizza-header {
+    text-align: center;
+}
+
+.pizza-container {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-img {
+    height: 300px;
+    width: 550px;
+}
